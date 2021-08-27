@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mobile = () => {
     return (
-        <div className="bg-purple-700 flex flex-col sm:flex-row sm:pl-12 items-center justify-between md:rounded-lg md:container md:mx-auto" style={{ backgroundImage: `url(https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png)` }}>
+        <div className="bg-purple-700 flex flex-col sm:flex-row sm:pl-12 items-center justify-between md:rounded-lg md:container md:mx-auto mb-4" style={{ backgroundImage: `url(https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png)` }}>
             <div className="text-white p-5 text-center">
                 <h3 className="font-semibold text-xs mt-3">Getir'i indirin!</h3>
                 <p className="font-semibold text-xs mt-3">İstediğiniz ürünleri dakikalar içinde kapınıza <br /> getirelim.</p>

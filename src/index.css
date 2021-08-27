@@ -10,5 +10,6 @@
     html, body {
         font-family: 'Open Sans', sans-serif;
         @apply antialiased bg-purple-200 bg-opacity-10;
+        overflow-x: hidden;
     }
 }

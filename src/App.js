@@ -1,4 +1,5 @@
 import Campaign from "./components/Campaign";
+import Cards from "./components/Cards";
 import Categories from "./components/Categories";
 import Favorites from "./components/Favorites";
 import Header from "./components/Header";
@@ -14,6 +15,7 @@ function App() {
       <Campaign />
       <Favorites />
       <Mobile />
+      <Cards />
     </div>
   );
 }
