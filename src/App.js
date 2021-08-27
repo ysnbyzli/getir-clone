@@ -1,8 +1,8 @@
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="bg-red-800">
+      sd
     </div>
   );
 }

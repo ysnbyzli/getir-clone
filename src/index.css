@@ -1,0 +1,11 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body {
+        font-family: 'Open Sans', sans-serif;
+        @apply antialiased bg-purple-200 bg-opacity-10 
+    }
+}
