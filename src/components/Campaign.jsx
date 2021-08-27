@@ -58,7 +58,7 @@ const Campaign = () => {
 
     return (
         <>
-            <div className="sm:container overflow-hidden lg:overflow-visible mx-auto px-0" style={{ width: width < 640 ? width : '' }}>
+            <div className="sm:container overflow-hidden lg:overflow-visible mx-auto px-0 mb-3" style={{ width: width < 640 ? width : '' }}>
                 <h3 className="font-semibold hidden sm:block text-sm mb-3">Kampanyalar</h3>
                 <Slider className="-mx-2 relative" {...settings}>
                     {banners && banners.map(banner => (
